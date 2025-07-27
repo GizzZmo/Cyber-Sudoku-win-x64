@@ -1,0 +1,38 @@
+// --- File: MainPage.xaml ---
+// The UI definition for the main Sudoku board, using XAML.
+/*
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CyberSudoku.MAUI.MainPage"
+             xmlns:viewmodels="clr-namespace:CyberSudoku.MAUI.ViewModels"
+             Title="Cyber Sudoku">
+
+    <!-- Bind the ViewModel to the page's context -->
+    <ContentPage.BindingContext>
+        <viewmodels:SudokuBoardViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Spacing="15" Padding="20">
+        <!-- Header -->
+        <Label Text="Cyber Sudoku" FontSize="32" FontAttributes="Bold" HorizontalOptions="Center" />
+
+        <!-- Difficulty Picker -->
+        <!-- A Picker or SegmentedControl would be implemented here -->
+
+        <!-- Sudoku Grid -->
+        <!-- A Grid control would be dynamically populated here based on the ViewModel -->
+        <Grid x:Name="SudokuGrid" WidthRequest="450" HeightRequest="450" HorizontalOptions="Center">
+            <!-- Grid rows and columns would be defined here -->
+        </Grid>
+
+        <!-- Input Pad -->
+        <!-- Buttons for numbers 1-9 and other controls would be here -->
+        
+        <!-- Loading Indicator -->
+        <ActivityIndicator IsRunning="{Binding IsGenerating}" IsVisible="{Binding IsGenerating}" />
+        <Label Text="Generating Puzzle..." IsVisible="{Binding IsGenerating}" HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>
+*/
